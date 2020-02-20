@@ -1,8 +1,6 @@
 # StringCalculatorConvertedToCSharp
 Solves String Calculator Kata. Solved first in Java then converted to C#.
 
-See https://osherove.com/tdd-kata-1/
-
 
 String Calculator
 
@@ -38,7 +36,7 @@ Numbers bigger than 1000 should be ignored, so adding 2 + 1001 = 2
 ————————————————————————————————
 Delimiters can be of any length with the following format: “//[delimiter]\n” for example: “//[***]\n1***2***3” should return 6
 ————————————————————————————————
-Allow multiple delimiters like this: “//[delim1][delim2]\n” for example “//[*][%]\n1*2%3” should return 6.
+Not implemented: Allow multiple delimiters like this: “//[delim1][delim2]\n” for example “//[*][%]\n1*2%3” should return 6.
 ————————————————————————————————
-make sure you can also handle multiple delimiters with length longer than one char
+Not implemented: Make sure you can also handle multiple delimiters with length longer than one char
 ———————————————————————————————— 
