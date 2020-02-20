@@ -59,7 +59,6 @@ namespace StringCalculator
                 }
             }
 
-            var jljlkj = "JLJLKJ";
             if (error.Length > 0) throw new ArgumentException("Negatives are not allowed: " + error);
             return answer;
         }
@@ -85,4 +84,3 @@ namespace StringCalculator
         }
     }
 }
-                  // Thanks https://stackoverflow.com/questions/8928601/how-can-i-split-a-string-with-a-string-delimiter
