@@ -1,4 +1,4 @@
-package com.monktowntech.stringCalculator;
+package com.someorganization.stringCalculator;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;

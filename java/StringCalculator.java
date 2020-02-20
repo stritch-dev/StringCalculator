@@ -1,4 +1,4 @@
-package com.monktowntech.stringCalculator;
+package com.someorganization.stringCalculator;
 
 public class StringCalculator {
 
