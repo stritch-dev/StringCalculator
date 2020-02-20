@@ -2,10 +2,10 @@
 Solves String Calculator Kata. Solved first in Java then converted to C#.
 
 
-h1. String Calculator Requirements
+##  String Calculator Requirements
 
-Create a simple String calculator with a method signature:
-———————————————
+Create a simple String calculator with a method signature
+- - - - - -
 int Add(string numbers)
 ———————————————
 The method can take up to two numbers, separated by commas, and will return their sum. 
