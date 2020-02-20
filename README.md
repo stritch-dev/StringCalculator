@@ -2,7 +2,7 @@
 Solves String Calculator Kata. Solved first in Java then converted to C#.
 
 
-String Calculator
+h1. String Calculator Requirements
 
 Create a simple String calculator with a method signature:
 ———————————————
