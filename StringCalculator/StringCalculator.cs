@@ -20,16 +20,17 @@ namespace StringCalculator
 
                   var delimiter = GetDelimiter(inputWithDelimiter);
               
-                  var numberString = Regex.Replace(inputWithDelimiter, "//", "");
+                  var numberString = Regex.Replace(@inputWithDelimiter, @"//", "");
                   numberString = Regex.Replace(numberString, "[\\[\\]]", "");
                   var a = numberString.ToCharArray();
-                  if (!char.IsDigit(numberString.ToCharArray()[0]))
+                  var firstChar = numberString.ToCharArray()[0];
+                  if (!char.IsDigit(firstChar) &&  firstChar != '-')
                   {
                       numberString = numberString.Substring(1);
                   }
 
                   var rx = new Regex(
-                      delimiter); // Thanks https://stackoverflow.com/questions/8928601/how-can-i-split-a-string-with-a-string-delimiter
+                      delimiter); 
                   var numbers = rx.Split(numberString);
 
                   return GetSum(numbers);
@@ -58,6 +59,7 @@ namespace StringCalculator
                 }
             }
 
+            var jljlkj = "JLJLKJ";
             if (error.Length > 0) throw new ArgumentException("Negatives are not allowed: " + error);
             return answer;
         }
@@ -83,3 +85,4 @@ namespace StringCalculator
         }
     }
 }
+                  // Thanks https://stackoverflow.com/questions/8928601/how-can-i-split-a-string-with-a-string-delimiter
